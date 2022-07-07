@@ -21,7 +21,7 @@
    li.toggleClass("strike");
  }
 
-  li.on("click", function crossOut() {
+  li.on("dblclick", function crossOut() {
     li.toggleClass("strike");
   });
 
